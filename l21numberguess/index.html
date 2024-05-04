@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>Number Guess With Voice Comment</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css" type="text/css" />
+
+    
+</head>
+<body>
+    <div class="container">
+        <h1>Number Guess with Voice Command</h1>
+        <p>Guess a number between <span class="minnumber">00</span> to <span class="maxnumber">00</span></p>
+
+        <form action="" id="gameform" class="gameform">
+            <div class="form-group">
+                <input type="number" name="guessnumber" id="guessnumber" class="form-control" placeholder="Enter your guess number" />
+                <input type="submit" id="btn" class="btn"/>
+
+                <span class="message1"></span>
+                <span class="message2"></span>
+            </div>
+        </form>
+
+        
+        <button type="button" id="mic-btn" class="mic-btn"><i class="fas fa-microphone">Use Microphone</i></button>
+        <div class="voice-container">
+            <span></span>
+        </div>
+    </div>
+
+</body>
+
+<script src="./app.js" type="text/script"></script>
+</html>
