@@ -11,6 +11,8 @@ body {
 
     padding: 0;
     margin: 0;
+
+    overflow-x: hidden;
  
 }
 .box{
@@ -51,10 +53,6 @@ body {
 }
 
 
-
-.box .btns.show .btn-icon{
-    visibility: visible;
-}
 
 .box .btns.show .btn-icon{
     visibility: visible;
