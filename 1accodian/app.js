@@ -12,7 +12,6 @@ for(let x=0 ;x<getacctitles.length;x++)
       // console.log(this); 
 
       this.classList.toggle("active");
-
       const getcontent=this.nextElementSibling;
 
       //getcont.scrollHeight to get height
